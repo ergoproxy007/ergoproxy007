@@ -19,10 +19,8 @@ Dado que la prima de servicio es una ganancia adicional, se debe calcular el des
 Capacidad de realizar configuraciones que permitan flexibilidad para el cálculo de la prima de servicios.
 
 ## Documentación Técnica
-
-<img width="632" height="842" alt="image" src="https://github.com/user-attachments/assets/913941a8-663f-4c70-8eef-639392f4edf1" />
-<img width="632" height="843" alt="Captura de pantalla 2025-09-29 160443" src="https://github.com/user-attachments/assets/adc95cdd-1093-4300-b025-dbc64d7241ef" />
-
+Arquitectura elegida. La implementación sigue con el uso del patrón MVC en Monolito Legacy de Ruby on Rails. En el siguiente diagrama se describe los componentes del motor de reglas de cálculo de prima con sus interacciones más importantes.
+<img width="602" height="743" alt="Captura de pantalla 2025-09-29 160443" src="https://github.com/user-attachments/assets/adc95cdd-1093-4300-b025-dbc64d7241ef" />
 
 ###### Calculo Retención en la Fuente Prima de Servicios:
 Retención en la fuente por prima.  La retención en la fuente es un adelanto de impuesto que se aplica en Colombia a toda ganancia que recibe el colaborador, el monto calculado se debe expresar como un descuento.
