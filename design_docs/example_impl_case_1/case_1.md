@@ -58,3 +58,5 @@ Retención en la fuente por prima.  La retención en la fuente es un adelanto de
 * Despliegue Canary al 1% para comprobar que el proyecto levanta correctamente.
 * Despliegue Canary al 30% durante 30 minutos para monitorear que todo vaya bien.
 * Despliegue Blue Green para asentar la nueva versión. 
+
+###### Plantilla Docs Designs: https://github.com/charliesbot/design-docs/tree/main/spanish#
