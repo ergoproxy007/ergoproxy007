@@ -20,10 +20,21 @@ Capacidad de realizar configuraciones que permitan flexibilidad para el cálculo
 
 ## Documentación Técnica
 
+<img width="632" height="842" alt="image" src="https://github.com/user-attachments/assets/913941a8-663f-4c70-8eef-639392f4edf1" />
+<img width="632" height="843" alt="Captura de pantalla 2025-09-29 160443" src="https://github.com/user-attachments/assets/adc95cdd-1093-4300-b025-dbc64d7241ef" />
+
+
 ###### Calculo Retención en la Fuente Prima de Servicios:
+Retención en la fuente por prima.  La retención en la fuente es un adelanto de impuesto que se aplica en Colombia a toda ganancia que recibe el colaborador, el monto calculado se debe expresar como un descuento.
+* Renta Exenta: El 25% del valor de la prima bruta es una renta exenta, pero solo hasta un límite anual de 790 UVT. Deberás considerar si la prima actual, sumada a otras primas del año (si las hubiera, aunque para este ejercicio puedes asumir que no hay otras primas para simplificar si lo deseas), supera este límite anual.
+* Base Gravable: Una vez aplicada la renta exenta, el valor restante constituye la base gravable.
+* Aplicación de la Tabla del Artículo 383 del Estatuto Tributario: Si la base gravable de la prima (después de aplicar la exención del 25%) supera las 95 UVT, se le debe aplicar la tabla de retención en la fuente del artículo 383 del Estatuto Tributario. Para simplificar, puedes asumir que la prima es el único ingreso para la aplicación de esta tabla.
+* Valor UVT: Puedes asumir que el valor de la UVT para el año actual es de $47.065 COP.
+* Se considera la aplicación de este descuento solo en aquellos sueldos que superan el monto mínimo establecido ley (cuando Base_UVT es este 0 a 90 UVT).
+
 | Descripción | Cálculo |
-|-------------|--------|
-| 1           | 2     |
+|-------------|---------|
+| <img width="500" height="422" alt="image" src="https://github.com/user-attachments/assets/71d5b04e-3d6c-48fd-ae32-e9b7b46c0f38" /> | <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/247b2586-3a2d-4f4b-bed5-05b451db7740" /> |
 
 ###### Modelo de Datos Actual:
 <img width="973" height="550" alt="image" src="https://github.com/user-attachments/assets/befec64e-eece-4fef-a7ee-a9bfb5199bd0" />
