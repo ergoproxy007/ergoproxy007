@@ -20,7 +20,7 @@ Capacidad de realizar configuraciones que permitan flexibilidad para el cálculo
 
 ## Documentación Técnica
 Arquitectura elegida. La implementación sigue con el uso del patrón MVC en Monolito Legacy de Ruby on Rails. En el siguiente diagrama se describe los componentes del motor de reglas de cálculo de prima con sus interacciones más importantes.
-<img width="602" height="743" alt="Captura de pantalla 2025-09-29 160443" src="https://github.com/user-attachments/assets/adc95cdd-1093-4300-b025-dbc64d7241ef" />
+<img width="1202" height="616" alt="image" src="https://github.com/user-attachments/assets/e76c6203-c6f0-4aee-8307-976f8c7d92f8" />
 
 ###### Calculo Retención en la Fuente Prima de Servicios:
 Retención en la fuente por prima.  La retención en la fuente es un adelanto de impuesto que se aplica en Colombia a toda ganancia que recibe el colaborador, el monto calculado se debe expresar como un descuento.
@@ -42,8 +42,6 @@ Retención en la fuente por prima.  La retención en la fuente es un adelanto de
 
 ###### Validaciones Adicionales:
 * Si escoge la opción de sueldo base, internamente se realizará también el cálculo de promedio mensual, con el objetivo de validar que el sueldo base y promedio mensual sean iguales. Si el resultado no es el mismo, se mostrará una aviso al usuario para que se asegure que si tomó la opción correcta, dado que el empleado al parecer tuvo un cambio de salario en el semestre, y así pueda evaluar la liquidación.
-
-### Detalle técnico Calculo Retención en la Fuente.
 
 ## Pruebas
 [PENDIENTE]
