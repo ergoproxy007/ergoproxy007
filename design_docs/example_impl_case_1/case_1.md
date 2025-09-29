@@ -21,9 +21,10 @@ Capacidad de realizar configuraciones que permitan flexibilidad para el cálculo
 ## Documentación Técnica
 
 ###### Calculo Retención en la Fuente Prima de Servicios:
-| Descripción | Calculo |
-|||
-| 1 | 2 |
+| Descripción | Cálculo |
+|-------------|--------|
+| 1           | 2     |
+
 ###### Modelo de Datos Actual:
 <img width="973" height="550" alt="image" src="https://github.com/user-attachments/assets/befec64e-eece-4fef-a7ee-a9bfb5199bd0" />
 
