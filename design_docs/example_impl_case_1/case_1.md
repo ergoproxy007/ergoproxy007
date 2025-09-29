@@ -1,5 +1,5 @@
-## Ticket Number
-[NOMI-111](http://#) Epica: Calculo Prima de Servicios
+## RFC: Cálculo de Prima de Servicios
+* Ticket Number: [NOMI-111](http://#) Epica - Calculo Prima de Servicios - Contexto Colombia
 
 ## Descripción Cambio
 * La Prima de Servicios es una prestación social que existe en Colombia y algunos países de latinoamérica. En el caso Colombiano, equivale a 30 días de salario por cada año trabajado, que el empleador debe pagar a sus trabajadores en 2 cuotas semestrales:
@@ -20,6 +20,10 @@ Capacidad de realizar configuraciones que permitan flexibilidad para el cálculo
 
 ## Documentación Técnica
 
+###### Calculo Retención en la Fuente Prima de Servicios:
+| Descripción | Calculo |
+|||
+| 1 | 2 |
 ###### Modelo de Datos Actual:
 <img width="973" height="550" alt="image" src="https://github.com/user-attachments/assets/befec64e-eece-4fef-a7ee-a9bfb5199bd0" />
 
